@@ -47,3 +47,7 @@ Crea due array che hanno un numero di elementi diversi.
 Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro. -->
 1 creo il primo array;
 2 creo il secondo array;
+3 se la lunghezza del primo array > secondo array allora uso ciclo for con index=arrey1.lenght; index < array2;
+4 dentro il ciclo chiedo di produrre numeri random che poi aggiungo al array2
+5 se lunghezza array2 > lunghezza array1 inverto gli array tra di loro nel processo for;
+6 se lunghezza array1 = lunghezza array2 stampo che sono della stessa lunghezza;

@@ -1,4 +1,4 @@
-SNACKs:
+<!-- SNACKs:
 1. TuttiFrutti
 Cartella array-lista
 Descrizione:
@@ -12,8 +12,18 @@ Fasi
    - se c'è stampiamo: "Trovato! Devo solo preparare il cocktail."
    - se non lo trovo: "Oh no, devo uscire a comprare il cocomero!"
 Suggerimenti/Indicazioni:
-Sì, lo sappiamo che esistono le funzioni includes() e indexOf() ma noi non le vogliamo utilizzare per cercare nel frigorifero.
-2. La coda dell'Array
+Sì, lo sappiamo che esistono le funzioni includes() e indexOf() ma noi non le vogliamo utilizzare per cercare nel frigorifero. -->
+
+1- creo una array con dentro gli elementi del frigo;
+2- aggiungo pesca alla fine del array frigo con .push();
+3- per trovare l'elemento cocomero nel array uso:
+    if (frigoriero[index] === cocomero){
+        se trovo l'elemento stampo "Trovato! Devo solo preparare il cocktail.";
+    } else {
+        se non trovo elemento stampo "Oh no, devo uscire a comprare il cocomero!";
+    }
+
+<!-- 2. La coda dell'Array
 Cartella: array_tail
 Creiamo  un array chiedendo all'utente quanti elementi dovrà contenere e
 generando tanti numeri casuali (compresi nell'intervallo da 1 a 100) per quanti sono gli elementi da inserire.
@@ -21,8 +31,19 @@ Stampiamo poi gli ultimi 5 elementi dell'Array
 Bonus:
 Chiediamo all'utente quanti elementi dell'array dovremo stampare
 Suggerimenti:
-Probabilmente  conviene controllare che il numero di elementi della coda non sia più grande del numero di elementi totali dell'array
-3.  (Bonus)
+Probabilmente  conviene controllare che il numero di elementi della coda non sia più grande del numero di elementi totali dell'array -->
+1 creo un array vuoto;
+2 uso prompt per chiedere al utente un numero n;
+3 uso il numero n nel ciclo for ;
+4 nel ciclo for genero n numeri casuali da inserire nel array;
+5 uso slice con start( n - 5) end con n per stampare solo gli ultimi 5 numeri;
+6 chiedo input x al utente e sostituisco slice (n - 5) con (n - x); 
+ 
+
+
+<!-- 3.  (Bonus)
 Cartella: array_bonus
 Crea due array che hanno un numero di elementi diversi.
-Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
+Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro. -->
+1 creo il primo array;
+2 creo il secondo array;

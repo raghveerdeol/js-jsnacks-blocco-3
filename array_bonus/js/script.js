@@ -6,17 +6,19 @@ Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti 
 2 creo il secondo array;
  */
 
-const gino = [1,2,3,4,5,6];
-const ugo = [2,4,5,7,8,3,15,17,18,9,12,15,13];
+const gino = [1,2,3,4,5,6,2,4,6,7,8];
+const ugo = [2,4,5,7,8,3];
 
 if (gino.length > ugo.length) {
     for (let index = ugo.length; index < gino.length; index++) {
-        ugo.push(Math.floor(Math.random() * 100) + 1)
+        ugo.push(Math.floor(Math.random() * 100) + 1);
     }
-} else {
+} else if (ugo.length > gino.length){
     for (let index = gino.length; index < ugo.length; index++) {
-        gino.push(Math.floor(Math.random() * 100) + 1)
+        gino.push(Math.floor(Math.random() * 100) + 1);
+    }    
+} else{
+        console.log('Lunghezza Gino è uguale alla lunghezza di Ugo')
     }
-}
 
 console.log(gino, ugo);

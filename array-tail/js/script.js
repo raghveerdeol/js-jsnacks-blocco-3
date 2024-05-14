@@ -8,10 +8,11 @@
 
 const gina = [];
 const n = Number.parseInt(prompt('inserisci un numero'));
+const x = Number.parseInt(prompt('inserisci un numero'));
 
 for (let index = 0; index < n; index++) {
     gina.push(Math.floor(Math.random() * 100) + 1)
 }
-const uga = gina.slice(n - 5, n);
+const uga = gina.slice(n - x, n);
 
 console.log(gina, n, uga)

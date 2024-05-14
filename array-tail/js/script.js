@@ -7,8 +7,8 @@
   */
 
 const gina = [];
-const n = Number.parseInt(prompt('inserisci un numero'));
-const x = Number.parseInt(prompt('inserisci un numero'));
+const n = Number.parseInt(prompt('inserisci il numero degli elementi di gina'));
+const x = Number.parseInt(prompt('inserisci il numero degli elementi da mostrare'));
 
 for (let index = 0; index < n; index++) {
     gina.push(Math.floor(Math.random() * 100) + 1)

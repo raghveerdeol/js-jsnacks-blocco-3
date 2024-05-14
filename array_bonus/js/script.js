@@ -11,11 +11,12 @@ const ugo = [2,4,5,7,8,3,15,17,18,9,12,15,13];
 
 if (gino.length > ugo.length) {
     for (let index = ugo.length; index < gino.length; index++) {
-        
-        
+        ugo.push(Math.floor(Math.random() * 100) + 1)
     }
 } else {
-    
+    for (let index = gino.length; index < ugo.length; index++) {
+        gino.push(Math.floor(Math.random() * 100) + 1)
+    }
 }
 
 console.log(gino, ugo);

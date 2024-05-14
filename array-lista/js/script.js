@@ -14,10 +14,8 @@
         if (frigo[index] === 'cocomero') {
             console.log("Trovato! Devo solo preparare il cocktail.");
         } else {
-            console.log('compra');
+            console.log("Oh no, devo uscire a comprare il cocomero!");
         }
-        
     }
-
 
     console.log(frigo)

@@ -8,7 +8,7 @@ let smallarray = 0;
 
 if (luffy.length === zoro.length) {
     console.log('Sono della stessa lunghezza.')
-} else if(luffy > zoro){
+} else if(luffy.length > zoro.length){
     bigarray = luffy;
     smallarray = zoro;
 } else{

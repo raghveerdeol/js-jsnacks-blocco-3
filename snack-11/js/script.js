@@ -12,4 +12,4 @@ while (somma < 50) {
     somma = somma + x;
 }
 
-console.log(lino)
+console.log(lino, somma);

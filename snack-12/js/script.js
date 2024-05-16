@@ -11,7 +11,7 @@ Se hanno la stessa lunghezza,
         if (firstLetter.length === secondLetter.length) {
             return true;
         } else{
-            return false
+            return false;
         }
     }
 

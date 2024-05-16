@@ -8,15 +8,19 @@ Se hanno la stessa lunghezza,
     let userSecondLetter = prompt("inserisci la seconda parola");
 
     function lunghezzaParola(firstLetter, secondLetter) {
-
-        if (firstLetter.length = secondLetter.length) {
-            return firstLetter, secondLetter;
-        } else if (firstLetter.length > secondLetter.length){
-            return firstLetter;
+        if (firstLetter.length === secondLetter.length) {
+            return true;
         } else{
-            return secondLetter;
+            return false
         }
-        
     }
 
-    lunghezzaParola(userFirstLettter, userSecondLetter);
+    if ( lunghezzaParola(userFirstLettter, userSecondLetter) === true){
+        console.log(userFirstLettter, userSecondLetter);
+    } else {
+        if (userFirstLettter.length > userSecondLetter.length) {
+            console.log(userFirstLettter);
+        } else {
+            console.log(userSecondLetter);
+        }
+    }

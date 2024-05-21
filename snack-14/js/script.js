@@ -5,9 +5,11 @@ const mainEl = document.querySelector("main");
 let hEL = document.createElement("h1");
 mainEl.appendChild(hEL);
 const timer = setInterval(function(){
+    hEL.innerHTML = ' ';
     hEL.append(userNumber--);
+    console.log(userNumber);
     if (userNumber <= 0) {
         clearInterval(timer);
     }
-    console.log(userNumber);
+
 },1000)

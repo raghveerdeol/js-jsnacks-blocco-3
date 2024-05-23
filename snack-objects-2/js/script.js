@@ -63,4 +63,4 @@ const chiPoGuiddare = persone.map((singolaPersona) => {
         return singolaPersona.nome + " " + singolaPersona.cognome + " " + "Può guidare";
     }
 });
-console.log(maggiorenne)
+console.log(chiPoGuiddare)

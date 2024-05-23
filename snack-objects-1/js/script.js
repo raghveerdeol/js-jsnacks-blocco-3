@@ -94,4 +94,4 @@ const altreAuto = automobili.filter((auto) => {
     if (auto.alimentazione !== "diesel" && auto.alimentazione !== "benzina") {
         return true;
     }
-})
+});

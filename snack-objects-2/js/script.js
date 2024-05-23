@@ -6,51 +6,61 @@
 let persone = [
     {
         nome: "gino",
+        cognome: "aoo",
         età: 18,
     },
     {
         nome: "gina",
+        cognome: "jojo",
         età: 22,
     },
     {
         nome: "paolo",
+        cognome: "bianco",
         età: 10,
     },
     {
         nome: "ugo",
+        cognome: "rosso",
         età: 14,
     },
     {
         nome: "uga",
+        cognome: "blue",
         età: 38,
     },
     {
         nome: "cisco",
+        cognome: "rosa",
         età: 48,
     },
     {
         nome: "nino",
+        cognome: "quanto",
         età: 5,
     },
     {
         nome: "nina",
+        cognome: "guanto",
         età: 55,
     },
     {
         nome: "jojo",
+        cognome: "monkey",
         età: 1,
     },
     {
         nome: "jaja",
+        cognome: "shift",
         età: 76,
     },
 ];
 
 const chiPoGuiddare = persone.map((singolaPersona) => {
     if (singolaPersona.età < 18) {
-        return singolaPersona.nome + " " + "Non puo guidare";
+        return singolaPersona.nome + " " + singolaPersona.cognome + " " + "Non puo guidare";
     } else {
-        return singolaPersona.nome + " " + "Può guidare";
+        return singolaPersona.nome + " " + singolaPersona.cognome + " " + "Può guidare";
     }
 });
 console.log(maggiorenne)

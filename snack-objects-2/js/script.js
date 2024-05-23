@@ -45,3 +45,12 @@ let persone = [
         età: 76,
     },
 ];
+
+const maggiorenne = persone.map((singolaPersona) => {
+    if (singolaPersona.età < 18) {
+        return singolaPersona.nome + "Non puo guidare";
+    } else {
+        return singolaPersona.nome + " Può guidare"
+    }
+});
+console.log(maggiorenne)
